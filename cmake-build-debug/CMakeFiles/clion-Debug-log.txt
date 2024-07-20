@@ -1,0 +1,14 @@
+C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/wildfire/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -DSDL2_DIR:PATH=C:/dev/cppLibs/SDL2/cmake -G Ninja -S X:\GameProjects\SDL_Tutorials\2DShooterUpper -B X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug
+CMake Deprecation Warning at C:/dev/cppLibs/SDL2/cmake/sdl2-config.cmake:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:7 (find_package)
+
+
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug

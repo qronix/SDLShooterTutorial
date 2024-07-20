@@ -1,0 +1,3 @@
+X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/CMakeFiles/2DShooterUpper.dir
+X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/CMakeFiles/edit_cache.dir
+X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/CMakeFiles/rebuild_cache.dir

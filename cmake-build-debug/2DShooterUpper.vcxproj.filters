@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\draw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\stage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{603C2C1C-15C9-31C1-8571-C325E977BFB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4BEDEA17-EE0C-3305-858E-0B9CE6681C4F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD3A6820-A378-3D45-9FDD-3CD0D468A9C5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>2DShooterUpper</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">2DShooterUpper.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">2DShooterUpper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">2DShooterUpper.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">2DShooterUpper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">2DShooterUpper.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">2DShooterUpper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">2DShooterUpper.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">2DShooterUpper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/cppLibs/SDL2/cmake/../include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;C:\dev\cppLibs\SDL2\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;C:\dev\cppLibs\SDL2\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\dev\cppLibs\SDL2\cmake\..\lib\x64\SDL2main.lib;C:\dev\cppLibs\SDL2\cmake\..\lib\x64\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/Debug/2DShooterUpper.lib</ImportLibrary>
+      <ProgramDataBaseFile>X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/Debug/2DShooterUpper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/cppLibs/SDL2/cmake/../include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;C:\dev\cppLibs\SDL2\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;C:\dev\cppLibs\SDL2\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\dev\cppLibs\SDL2\cmake\..\lib\x64\SDL2main.lib;C:\dev\cppLibs\SDL2\cmake\..\lib\x64\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/Release/2DShooterUpper.lib</ImportLibrary>
+      <ProgramDataBaseFile>X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/Release/2DShooterUpper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/cppLibs/SDL2/cmake/../include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;C:\dev\cppLibs\SDL2\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;C:\dev\cppLibs\SDL2\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\dev\cppLibs\SDL2\cmake\..\lib\x64\SDL2main.lib;C:\dev\cppLibs\SDL2\cmake\..\lib\x64\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/MinSizeRel/2DShooterUpper.lib</ImportLibrary>
+      <ProgramDataBaseFile>X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/MinSizeRel/2DShooterUpper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/cppLibs/SDL2/cmake/../include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;C:\dev\cppLibs\SDL2\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper;C:\dev\cppLibs\SDL2\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\dev\cppLibs\SDL2\cmake\..\lib\x64\SDL2main.lib;C:\dev\cppLibs\SDL2\cmake\..\lib\x64\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/RelWithDebInfo/2DShooterUpper.lib</ImportLibrary>
+      <ProgramDataBaseFile>X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/RelWithDebInfo/2DShooterUpper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule X:/GameProjects/SDL_Tutorials/2DShooterUpper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SX:/GameProjects/SDL_Tutorials/2DShooterUpper -BX:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug --check-stamp-file X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompilerABI.c;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystem.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CompilerId\VS-10.vcxproj.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FeatureSummary.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\dev\cppLibs\SDL2\cmake\sdl2-config-version.cmake;C:\dev\cppLibs\SDL2\cmake\sdl2-config.cmake;C:\dev\cppLibs\SDL2_image\cmake\sdl2_image-config-version.cmake;C:\dev\cppLibs\SDL2_image\cmake\sdl2_image-config.cmake;C:\dev\cppLibs\SDL2_ttf\cmake\sdl2_ttf-config-version.cmake;C:\dev\cppLibs\SDL2_ttf\cmake\sdl2_ttf-config.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeCCompiler.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule X:/GameProjects/SDL_Tutorials/2DShooterUpper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SX:/GameProjects/SDL_Tutorials/2DShooterUpper -BX:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug --check-stamp-file X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompilerABI.c;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystem.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CompilerId\VS-10.vcxproj.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FeatureSummary.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\dev\cppLibs\SDL2\cmake\sdl2-config-version.cmake;C:\dev\cppLibs\SDL2\cmake\sdl2-config.cmake;C:\dev\cppLibs\SDL2_image\cmake\sdl2_image-config-version.cmake;C:\dev\cppLibs\SDL2_image\cmake\sdl2_image-config.cmake;C:\dev\cppLibs\SDL2_ttf\cmake\sdl2_ttf-config-version.cmake;C:\dev\cppLibs\SDL2_ttf\cmake\sdl2_ttf-config.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeCCompiler.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule X:/GameProjects/SDL_Tutorials/2DShooterUpper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SX:/GameProjects/SDL_Tutorials/2DShooterUpper -BX:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug --check-stamp-file X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompilerABI.c;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystem.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CompilerId\VS-10.vcxproj.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FeatureSummary.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\dev\cppLibs\SDL2\cmake\sdl2-config-version.cmake;C:\dev\cppLibs\SDL2\cmake\sdl2-config.cmake;C:\dev\cppLibs\SDL2_image\cmake\sdl2_image-config-version.cmake;C:\dev\cppLibs\SDL2_image\cmake\sdl2_image-config.cmake;C:\dev\cppLibs\SDL2_ttf\cmake\sdl2_ttf-config-version.cmake;C:\dev\cppLibs\SDL2_ttf\cmake\sdl2_ttf-config.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeCCompiler.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule X:/GameProjects/SDL_Tutorials/2DShooterUpper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SX:/GameProjects/SDL_Tutorials/2DShooterUpper -BX:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug --check-stamp-file X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompilerABI.c;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystem.cmake.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CompilerId\VS-10.vcxproj.in;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FeatureSummary.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\dev\cppLibs\SDL2\cmake\sdl2-config-version.cmake;C:\dev\cppLibs\SDL2\cmake\sdl2-config.cmake;C:\dev\cppLibs\SDL2_image\cmake\sdl2_image-config-version.cmake;C:\dev\cppLibs\SDL2_image\cmake\sdl2_image-config.cmake;C:\dev\cppLibs\SDL2_ttf\cmake\sdl2_ttf-config-version.cmake;C:\dev\cppLibs\SDL2_ttf\cmake\sdl2_ttf-config.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeCCompiler.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\common.h" />
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\defs.h" />
+    <ClCompile Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\draw.c" />
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\draw.h" />
+    <ClCompile Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\init.c" />
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\init.h" />
+    <ClCompile Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\input.c" />
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\input.h" />
+    <ClCompile Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\main.c" />
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\main.h" />
+    <ClCompile Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\stage.c" />
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\stage.h" />
+    <ClInclude Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\2DShooterUpper\structs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug\ZERO_CHECK.vcxproj">
+      <Project>{033C3225-E515-34FF-88C0-5B4E17774236}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
