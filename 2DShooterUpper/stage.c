@@ -3,35 +3,61 @@
 #include "stage.h"
 #include "draw.h"
 #include "util.h"
+#include "sound.h"
 
 extern App app;
 extern Stage stage;
 
 static void logic(void);
+
 static void draw(void);
+
 static void initPlayer(void);
+
 static void fireBullet(void);
+
 static void doPlayer(void);
+
 static void doFighters(void);
+
 static void doBullets(void);
+
 static void drawFighters(void);
+
 static void drawBullets(void);
+
 static void spawnEnemies(void);
+
 static int bulletHitFighter(Entity *b);
+
 static void doEnemies(void);
+
 static void fireAlienBullet(Entity *e);
+
 static void clipPlayer(void);
+
 static void resetStage(void);
+
 static void drawBackground(void);
+
 static void initStarfield(void);
+
 static void drawStarfield(void);
+
 static void doBackground(void);
+
 static void doStarfield(void);
+
 static void drawExplosions(void);
+
 static void doExplosions(void);
+
 static void addExplosions(int x, int y, int num);
+
 static void addDebris(Entity *e);
+
 static void doDebris(void);
+
 static void drawDebris(void);
 
 static Entity *player;
@@ -212,8 +238,9 @@ static void doPlayer(void)
         player->dx = PLAYER_SPEED;
     }
 
-    if (app.keyboard[SDL_SCANCODE_LCTRL] && player->reload == 0)
+    if (app.keyboard[SDL_SCANCODE_LCTRL] && player->reload <= 0)
     {
+        playSound(SND_PLAYER_FIRE, CH_PLAYER);
         fireBullet();
     }
 }
@@ -249,6 +276,7 @@ static void doEnemies(void)
         if (e != player && player != NULL && --e->reload <= 0)
         {
             fireAlienBullet(e);
+            playSound(SND_ALIEN_FIRE, CH_ALIEN_FIRE);
         }
     }
 }
@@ -352,6 +380,14 @@ static int bulletHitFighter(Entity *b)
     {
         if (e->side != b->side && collision(b->x, b->y, b->w, b->h, e->x, e->y, e->w, e->h))
         {
+            if (e == player)
+            {
+                playSound(SND_PLAYER_DIE, CH_PLAYER);
+            } else
+            {
+                playSound(SND_ALIEN_DIE, CH_ANY);
+            }
+
             b->health = 0;
             e->health = 0;
 
