@@ -35,7 +35,9 @@ add_executable(2DShooterUpper
         2DShooterUpper/util.c
         2DShooterUpper/util.h
         2DShooterUpper/sound.c
-        2DShooterUpper/sound.h)
+        2DShooterUpper/sound.h
+        2DShooterUpper/text.c
+        2DShooterUpper/text.h)
 
 
 target_link_libraries(2DShooterUpper PRIVATE ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES} ${SDL2_MIXER_LIBRARIES} ${SDL2_TTF_LIBRARIES})
