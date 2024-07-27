@@ -8,12 +8,14 @@ find_package(SDL2 REQUIRED)
 
 set(SDL2_IMAGE_PATH "SDL2_image-2.8.2\\x86_64-w64-mingw32")
 find_package(SDL2_image REQUIRED)
+find_package(SDL2_mixer REQUIRED)
 #find_package(SDL2_ttf REQUIRED)
 
 include_directories(2DShooterUpper)
 
 include_directories(${SDL2_INCLUDE_DIRS})
 include_directories(${SDL2_IMAGE_INCLUDE_DIRS})
+include_directories(${SDL2_MIXER_INCLUDE_DIRS})
 include_directories(${SDL2_TTF_INCLUDE_DIRS})
 
 add_executable(2DShooterUpper
@@ -31,7 +33,9 @@ add_executable(2DShooterUpper
         2DShooterUpper/stage.h
         2DShooterUpper/structs.h
         2DShooterUpper/util.c
-        2DShooterUpper/util.h)
+        2DShooterUpper/util.h
+        2DShooterUpper/sound.c
+        2DShooterUpper/sound.h)
 
 
-target_link_libraries(2DShooterUpper PRIVATE ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES} ${SDL2_TTF_LIBRARIES})
+target_link_libraries(2DShooterUpper PRIVATE ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES} ${SDL2_MIXER_LIBRARIES} ${SDL2_TTF_LIBRARIES})

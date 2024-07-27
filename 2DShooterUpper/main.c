@@ -5,6 +5,7 @@
 #include "input.h"
 #include "main.h"
 #include "stage.h"
+#include "sound.h"
 
 App app;
 Stage stage;
@@ -22,6 +23,8 @@ int main(int argc, char* argv[]) {
 	atexit(cleanup);
 	
 	initStage();
+
+    initSounds();
 
 	then = SDL_GetTicks();
 
