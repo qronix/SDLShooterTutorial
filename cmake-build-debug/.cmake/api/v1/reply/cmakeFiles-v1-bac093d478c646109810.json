@@ -470,6 +470,32 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Users/wildfire/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/modules/FindSDL2_mixer.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/dev/cppLibs/SDL2/cmake/sdl2-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/dev/cppLibs/SDL2/cmake/sdl2-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/wildfire/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/wildfire/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/wildfire/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

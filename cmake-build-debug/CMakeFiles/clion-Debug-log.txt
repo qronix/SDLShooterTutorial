@@ -1,4 +1,10 @@
 C:\Users\wildfire\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/wildfire/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -DSDL2_DIR:PATH=C:/dev/cppLibs/SDL2/cmake -DSDL2_MIXER_NO_DEFAULT_PATH:BOOL=OFF -DSDL2_MIXER_INCLUDE_DIR:PATH=X:/GameProjects/SDL_Tutorials/2DShooterUpper/SDL2_mixer-2.8.0/x86_64-w64-mingw32/include/SDL2 -G Ninja -S X:\GameProjects\SDL_Tutorials\2DShooterUpper -B X:\GameProjects\SDL_Tutorials\2DShooterUpper\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/wildfire/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
 CMake Deprecation Warning at C:/dev/cppLibs/SDL2/cmake/sdl2-config.cmake:4 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
   CMake.
@@ -9,6 +15,7 @@ Call Stack (most recent call first):
   CMakeLists.txt:7 (find_package)
 
 
+-- Found SDL2_image: C:/dev/cppLibs/SDL2_image/lib/x64/SDL2_image.lib (found version "2.8.2") 
 CMake Deprecation Warning at C:/dev/cppLibs/SDL2/cmake/sdl2-config.cmake:4 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
   CMake.
@@ -20,6 +27,7 @@ Call Stack (most recent call first):
   CMakeLists.txt:11 (find_package)
 
 
--- Configuring done (0.2s)
+-- Found SDL2_mixer: C:/dev/cppLibs/SDL2_mixer/lib/x64/SDL2_mixer.lib (found version "2.8.0") 
+-- Configuring done (0.8s)
 -- Generating done (0.0s)
 -- Build files have been written to: X:/GameProjects/SDL_Tutorials/2DShooterUpper/cmake-build-debug

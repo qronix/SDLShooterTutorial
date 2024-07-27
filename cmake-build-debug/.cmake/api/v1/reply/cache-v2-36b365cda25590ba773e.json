@@ -1246,11 +1246,7 @@
 			"value" : "X:/GameProjects/SDL_Tutorials/2DShooterUpper/SDL2_mixer-2.8.0/x86_64-w64-mingw32/include/SDL2"
 		},
 		{
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-03489a9102567f5cff44.json
-			"name" : "SDL2_MIXER_NO_DEFAULT_PATH",
-========
 			"name" : "SDL2_MIXER_LIBRARY",
->>>>>>>> chapter_10:cmake-build-debug/.cmake/api/v1/reply/cache-v2-36b365cda25590ba773e.json
 			"properties" : 
 			[
 				{
@@ -1259,13 +1255,6 @@
 				},
 				{
 					"name" : "HELPSTRING",
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-03489a9102567f5cff44.json
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-========
 					"value" : "Where the SDL2_mixer Library can be found"
 				}
 			],
@@ -1303,7 +1292,6 @@
 			],
 			"type" : "STRING",
 			"value" : ""
->>>>>>>> chapter_10:cmake-build-debug/.cmake/api/v1/reply/cache-v2-36b365cda25590ba773e.json
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

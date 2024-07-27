@@ -1,16 +1,9 @@
 # ninja log v6
-21	447	7432261031925189	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/input.c.obj	8bad6d4321c0f8fd
-23	447	7432261031945211	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/main.c.obj	73122a62e235eaa6
-4	391	7433068682043606	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/stage.c.obj	bc2f940a741a8158
-15	447	7432261031865173	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/draw.c.obj	8e956d81a7955324
-19	446	7432261031905178	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/init.c.obj	2ed76c3ca9a76311
-391	475	7433068685913604	2DShooterUpper.exe	8687a0ac5f2460e3
-28	445	7432261031995187	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/util.c.obj	d05e7d071afa53d1
-46	540	7437632605301395	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/sound.c.obj	d62da4ca9ba2a043
-31	540	7437632605141391	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/draw.c.obj	d4c180afaa14cc3b
-37	541	7437632605211393	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/input.c.obj	e3d95bc7279f6470
-44	541	7437632605271394	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/util.c.obj	3e45efbad997f428
-39	541	7437632605231389	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/main.c.obj	62f87c50a4b30571
-42	542	7437632605251390	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/stage.c.obj	91646f6a55c6b69f
-15	377	7437632766501243	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/init.c.obj	99111e514a9d4e11
-377	625	7437632770111247	2DShooterUpper.exe	973f49246e0d94c5
+7	416	7437636492854976	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/input.c.obj	e3d95bc7279f6470
+17	417	7437636492955000	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/sound.c.obj	d62da4ca9ba2a043
+9	425	7437636492874974	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/main.c.obj	62f87c50a4b30571
+12	450	7437636492904986	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/stage.c.obj	91646f6a55c6b69f
+1	413	7437636492804973	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/draw.c.obj	d4c180afaa14cc3b
+5	416	7437636492834971	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/init.c.obj	99111e514a9d4e11
+450	535	7437636497284973	2DShooterUpper.exe	973f49246e0d94c5
+14	424	7437636492934975	CMakeFiles/2DShooterUpper.dir/2DShooterUpper/util.c.obj	3e45efbad997f428
